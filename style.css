@@ -108,3 +108,12 @@ select {
   padding: 0.6rem;
   font-size: 1rem;
 }
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
