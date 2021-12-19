@@ -13,6 +13,10 @@ svg {
   pointer-events: none;
 }
 
+.mute.hihat-volume {
+  margin-left: 1.5rem;
+}
+
 .kick-pad,
 .snare-pad,
 .hihat-pad {
@@ -104,13 +108,35 @@ svg {
   margin-top: 3rem;
 }
 
+select {
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
 .mute.active {
   background: rgba(255, 0, 0, 0.548);
 }
 
-select {
-  padding: 0.6rem;
-  font-size: 1rem;
+.tempo {
+  margin: 3rem;
+  width: 30%;
+}
+
+.tempo-slider {
+  padding: 0.2rem;
+  -webkit-appearance: none;
+  margin: 1rem 0rem;
+  width: 100%;
+  position: relative;
+  background: rgb(160, 211, 224);
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.tempo p {
+  font-size: 1.5rem;
+  margin: 2rem;
+  text-align: center;
 }
 
 @keyframes playTrack {
