@@ -104,6 +104,10 @@ svg {
   margin-top: 3rem;
 }
 
+.mute.active {
+  background: rgba(255, 0, 0, 0.548);
+}
+
 select {
   padding: 0.6rem;
   font-size: 1rem;
